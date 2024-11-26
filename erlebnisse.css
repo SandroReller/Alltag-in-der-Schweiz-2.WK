@@ -1,0 +1,79 @@
+.content-er {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 900px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
+    border-radius: 10px;
+}
+
+
+.content-er h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+/* Bilder-Container */
+.image-container-er {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-container-er img {
+    display: block;
+    margin: 0 auto;
+    max-width: 75%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.image-container-er img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Absatz-Text */
+.content-er p {
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-left: 4px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Links */
+.content-er a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content-er a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content-er {
+        padding: 10px;
+    }
+
+    .content-er h1 {
+        font-size: 2rem;
+    }
+}
+
+.fablas p{
+    padding-right: 10%;
+    padding-left: 10%;
+}

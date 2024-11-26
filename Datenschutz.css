@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Button zum Öffnen des Modals */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Modal Overlay - Dunkler Hintergrund, der das Modal hervorhebt */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal selbst - Container für den Inhalt */
+.modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 90%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+/* Header des Modals */
+.modal-content h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Absätze im Modal */
+.modal-content p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Abschnittsüberschriften im Modal */
+.modal-content h3 {
+    color: #007BFF;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Schließen-Button */
+.close-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.close-btn:hover {
+    background-color: #c82333;
+}

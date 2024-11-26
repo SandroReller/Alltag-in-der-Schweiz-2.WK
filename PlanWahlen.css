@@ -1,0 +1,46 @@
+
+.image-title-containerpw {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url('./assets/Kartoffelanbau_auf_dem_Klosterplatz.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-title-containerpw img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.image-title-containerpw h1 {
+    color: #fff;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 25px;
+    border-radius: 10px;
+    z-index: 1;
+    margin: 0;
+}
+.contentpw {
+    flex: 1;
+    box-sizing: border-box;
+    background-color: white;
+    border-left: 1px solid #ddd;
+}
+
+.mpara{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
